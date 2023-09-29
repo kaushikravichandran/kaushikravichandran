@@ -6,8 +6,6 @@ on:
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
-  base: header, repositories
-  plugin_lines: yes
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
